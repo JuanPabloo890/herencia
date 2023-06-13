@@ -13,7 +13,9 @@ public class menu {
         miPersona.caminar();
 
         System.out.println("\n");
-
+        ana.setNombre("ANA");
+        ana.setProfesion("DOCTORA");
+        ana.setEdad(21);
         System.out.println(ana.getNombre()+ " es "+ ana.getProfesion());
         System.out.println("Tiene "+ana.getEdad() + " años");
         ana.examinar();
