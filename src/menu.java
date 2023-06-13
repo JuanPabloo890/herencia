@@ -9,6 +9,7 @@ public class menu {
 
         System.out.println(miPersona.getNombre()+ " es " + miPersona.getProfesion());
         System.out.println("Tiene "+miPersona.getEdad() + " años" );
+        System.out.println("Su signo es: "+miPersona.getSigno());
         miPersona.caminar();
 
         System.out.println("\n");
